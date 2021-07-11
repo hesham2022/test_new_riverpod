@@ -32,7 +32,9 @@ dependencies:
   json_serializable: ^4.1.2
   build_runner: ^2.0.3
   dio: ^4.0.0
-  flutter_riverpod: ^0.14.0+3
+  flutter_riverpod: 
+  hooks_riverpod:
+  riverpod:
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:test_new_riverpod/screens/home_screen.dart';
+
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));

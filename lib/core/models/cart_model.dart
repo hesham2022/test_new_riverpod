@@ -47,6 +47,14 @@ class Product {
   String image;
   int price;
   int quantity;
+  void increaseQuantity() {
+    quantity = quantity + 1;
+    print('quanaty is $quantity ');
+  }
+    void decreaseQuantity() {
+    quantity = quantity - 1;
+    print('quanaty is $quantity ');
+  }
 
   factory Product.fromJson(Map<String, dynamic> json) => Product(
         id: json["id"],
